@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .musicPlayerBar {
+        @apply
+        px-0
+        sm:px-3
+        bg-black
+        /*flex*/
+        /*items-center*/
+        /*justify-between*/
+        /*flex-wrap*/
+        /*p-3*/
+        /*w-full*/
+        /*relative*/
+        /*z-40*/
+    }
+}
+
+.musicPlayerBar {
+    height: var(--bar-height);
+    min-height: var(--bar-height);
+}
